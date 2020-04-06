@@ -6,15 +6,13 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSendEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main"
-        android:textSize="18sp"
-        android:textColor="#000"
+        android:text="Send email"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
